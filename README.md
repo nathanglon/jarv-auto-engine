@@ -1,53 +1,6 @@
 # jarv-auto-engine
 Uses github.com/dorianglon/Jarv for the agentic model as it's friend. Runs auto queries on company data to probe for new correlations and insights on the company that analysts don't see and/or can't see.
 
-Here is the project structure:
-
-jarv-auto-engine
-│
-├── README.md
-├── requirements.txt
-├── setup.py
-├── config/
-│   └── config.yaml
-│
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── knowledge_graph/
-│   │   ├── __init__.py
-│   │   ├── graph.py
-│   │   └── relationships.py
-│   │
-│   ├── query_generation/
-│   │   ├── __init__.py
-│   │   ├── generator.py
-│   │   └── validator.py
-│   │
-│   ├── embeddings/
-│   │   ├── __init__.py
-│   │   └── encoder.py
-│   │
-│   ├── exploration/
-│   │   ├── __init__.py
-│   │   ├── explorer.py
-│   │   └── sampling.py
-│   │
-│   └── utils/
-│       ├── __init__.py
-│       ├── database.py
-│       └── logging.py
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_knowledge_graph.py
-│   ├── test_query_generation.py
-│   └── test_exploration.py
-│
-└── notebooks/
-    └── examples.ipynb
-
-
 Instructions:
 
 ## Features
